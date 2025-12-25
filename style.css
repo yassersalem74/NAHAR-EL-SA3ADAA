@@ -940,6 +940,8 @@ body {
   grid-area: header;
   padding: 0;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .session-header-image img {
