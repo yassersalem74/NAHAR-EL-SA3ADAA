@@ -765,6 +765,9 @@ body {
 .alert-title {
   font-weight: 700;
 }
+.alert-title img{
+  padding-left: 6px;
+}
 
 .alert-quotes {
   font-weight: 500;
@@ -932,6 +935,7 @@ body {
 
 .session-details-card h3 {
   font-size: 18px;
+  margin: 0;
   margin-bottom: 8px;
 }
 
@@ -971,22 +975,23 @@ body {
 }
 
 .session-about-card h3 {
-  font-size: 18px;
+  font-size: 22px;
   margin-bottom: 12px;
 }
 
 .session-about-card p {
-  font-size: 14px;
-  line-height: 1.8;
-  color: #7a6fa3;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #7a6fa3;
+    text-align: justify;
 }
 .session-host-card {
   grid-area: host;
 }
 
 .session-host-card h3 {
-  font-size: 18px;
-  margin-bottom: 12px;
+  font-size: 22px;
+  margin: 0;
 }
 
 .host-info {
@@ -1003,11 +1008,11 @@ body {
 }
 
 .host-info h4 {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 4px;
 }
 
 .host-info p {
-  font-size: 13px;
+  font-size: 16px;
   color: #7a6fa3;
 }
