@@ -41,6 +41,10 @@
   .second-p {
     font-size: 1.1rem;
   }
+
+   .session-detail-layout {
+    gap: 20px;
+  }
 }
 
 /* ================================================= */
@@ -94,6 +98,10 @@
   .gallery-two img {
     height: 100%;
   }
+
+  .session-detail-layout {
+    gap: 16px;
+  }
 }
 
 /* ================================================= */
@@ -143,6 +151,20 @@
   .feature-card {
     width: 100%;
   }
+   .session-detail-layout {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "price"
+      "header"
+      "details"
+      "about"
+      "host";
+  }
+
+  .session-header-image img {
+    height: auto;
+  }
+  
 }
 
 /* ================================================= */

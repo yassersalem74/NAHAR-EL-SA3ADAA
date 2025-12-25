@@ -35,3 +35,13 @@ document.addEventListener("click", () => {
     dropdown.classList.remove("open-menu");
   });
 });
+
+
+
+// zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+
+
+function goToSessionDetail(){
+  window.location.href = "session-detail.html";
+
+}

@@ -30,7 +30,7 @@
   margin-bottom: 64px;
 }
 .title {
-  font-size: clamp(1.2rem, 4vw, 2rem);
+  font-size: clamp(1.2rem, 4vw, 3rem);
   color: #866eaf;
   font-weight: 700;
   text-align: center;
@@ -38,15 +38,14 @@
 
 .sub-title {
   font-size: clamp(0.8rem, 3vw, 1.4rem);
-  color: #AEA7BB;
-  font-weight:400;
+  color: #aea7bb;
+  font-weight: 400;
   text-align: center;
-
 }
 
 /* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
-
-
-button i{
+button i {
   padding: 0px 8px;
 }
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
