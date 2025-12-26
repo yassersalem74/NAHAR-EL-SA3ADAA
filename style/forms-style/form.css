@@ -72,7 +72,9 @@ body {
 .quote-primary {
   color: #866eaf;
 }
-
+.form-question-title{
+  padding-bottom: 22px;
+}
 .form-input input {
   width: 100%;
   border-radius: 16px;
