@@ -94,6 +94,7 @@ body {
 .information-container {
   border-radius: 16px;
   overflow: hidden;
+      padding: 46px 0px 0px 0px;
 }
 
 .info-col {
