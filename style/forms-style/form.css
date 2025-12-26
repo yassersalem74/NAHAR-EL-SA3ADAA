@@ -25,6 +25,7 @@ body {
   border-radius: 16px;
   box-shadow: 0px 4px 16px 0px #00000026;
 }
+
 .form-gradient {
   position: relative;
   background: #fff;
@@ -72,21 +73,31 @@ body {
 .quote-primary {
   color: #866eaf;
 }
-.form-question-title{
-    margin-bottom: -42px;
-}
 
-.quote-primary-padding{
+.otp-quote {
+  font-size: 22px;
+}
+.form-question-title {
+  margin-bottom: -24px;
+}
+.email-title-padding {
+  margin-bottom: -48px !important;
+}
+.quote-primary-padding {
   padding-bottom: 36px;
 }
-.form-input input {
+.form-input .email-input {
   width: 100%;
   border-radius: 16px;
-  padding: 24px 0px;
   background-color: #ddd9e680;
   border: none;
+  text-align: right;
+  color: #866eaf;
+  font-size: 24px;
+  padding: 12px 0px;
+  border: none;
 }
-input::placeholder,
+.email-input::placeholder,
 textarea::placeholder {
   font-family: "Cairo", sans-serif;
   text-align: right;
@@ -95,6 +106,25 @@ textarea::placeholder {
   padding: 8px;
 }
 
+.otp-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.otp-flex .otp-input {
+  width: 13%;
+  height: 85px;
+  border-radius: 24px;
+  text-align: center;
+  line-height: 85px;
+  font-family: "Cairo", sans-serif;
+  font-size: 64px;
+  caret-color: transparent;
+  border: none;
+  background-color: #ddd9e680;
+}
+.otp-flex .otp-input::placeholder {
+  color: #b5a7d6;
+}
 .form-btn-container {
   display: flex;
   justify-content: space-evenly;
@@ -162,6 +192,27 @@ textarea::placeholder {
   font-weight: 600;
   font-size: 24px;
   color: #866eaf;
+  cursor: pointer;
+}
+.footer-link:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.button-footer {
+  background-color: transparent;
+  margin-top: -36px;
+  margin-bottom: -22px;
+}
+.button-footer-link {
+  font-weight: 500;
+  font-size: 24px;
+  color: #bcbabf;
+}
+
+.link-primary {
+  color: #866eaf;
+  font-weight: 600;
 }
 /* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
 
@@ -187,5 +238,15 @@ textarea::placeholder {
   }
   .last-button {
     order: 1;
+  }
+  .otp-flex {
+    gap: 6px;
+  }
+  .otp-flex .otp-input {
+    height: 48px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 48px; /* SAME as height */
+    font-size: 24px; /* optional: better fit on mobile */
   }
 }
