@@ -45,3 +45,11 @@ function goToSessionDetail(){
   window.location.href = "session-detail.html";
 
 }
+
+// zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+
+
+function goToSessionForm(){
+  window.location.href = "forms/is-member.html";
+
+}

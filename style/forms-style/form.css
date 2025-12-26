@@ -1,0 +1,90 @@
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+.container-form {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 16px 32px;
+}
+.form {
+  width: 788px;
+  height: 540px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0px 4px 16px 0px #00000026;
+}
+
+.form-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-question {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.quote {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.form-btn-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-btn {
+  font-family: "Cairo", sans-serif;
+  padding: 8px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 0px 4px 16px 0px #00000040;
+}
+
+.form-btn-primary {
+  background-color: #866eaf;
+  color: #ffffff;
+}
+
+.form-btn-secondary {
+  background-color: #ffffff;
+  color: #866eaf;
+}
+
+.form-btn-primary:hover {
+  background-color: #ffffff;
+  color: #866eaf;
+  outline: 1px solid #866eaf;
+  transition: 0.5s;
+
+}
+
+.form-btn-secondary:hover {
+  background-color: #866eaf;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
+
+@media screen and (max-width: 576px) {
+  .form {
+    height: 678px;
+  }
+}
