@@ -53,6 +53,10 @@ body {
   flex-direction: column;
   height: 640px;
 }
+
+.final-success-form {
+  height: 520px;
+}
 .form-logo {
   display: flex;
   justify-content: center;
@@ -86,6 +90,31 @@ body {
 .quote-primary-padding {
   padding-bottom: 36px;
 }
+
+.information-container {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.info-col {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ddd9e680;
+  font-weight: 400;
+  font-size: 24px;
+  border-bottom: 0.5px solid #a194b780;
+}
+.info-col .key {
+  color: #aea7bb;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.info-col .value {
+  color: #866eaf;
+}
+
 .form-input .email-input {
   width: 100%;
   border-radius: 16px;
@@ -172,7 +201,9 @@ textarea::placeholder {
   padding-right: 8px;
   font-size: 24px;
 }
-
+.info-btns {
+  margin-top: 24px;
+}
 .form-footer {
   background-color: #edecef;
   display: flex;
@@ -214,6 +245,7 @@ textarea::placeholder {
   color: #866eaf;
   font-weight: 600;
 }
+
 /* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
 
 @media screen and (max-width: 576px) {
@@ -246,7 +278,13 @@ textarea::placeholder {
     height: 48px;
     border-radius: 8px;
     text-align: center;
-    line-height: 48px; /* SAME as height */
-    font-size: 24px; /* optional: better fit on mobile */
+    line-height: 48px;
+    font-size: 24px;
+  }
+  .info-col {
+    font-size: 16px;
+  }
+  .final-success-form {
+    height: 420px;
   }
 }

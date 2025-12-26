@@ -14,3 +14,7 @@ function goToSuccessForm(){
 function goToInfoForm(){
   window.location.href = "session-info-form.html";
 }
+
+function goToFinalSuccessForm(){
+  window.location.href = "final-success.html";
+}
