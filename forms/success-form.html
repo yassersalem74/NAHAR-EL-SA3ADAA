@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Email Verify</title>
+        <title>Successfully Logged In</title>
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -24,31 +24,16 @@
             <div class="form form-large form-gradient">
                 <div class="form-container form-large">
                     <div class="form-logo">
-                        <img src="/assets/secure.png" alt="secure">
+                        <img src="/assets/success.png" alt="person-logo">
                     </div>
-                    <div class="form-question form-question-title">
-                        تأكيد الهوية
+                    <div class="form-question">
+                        تم التسجيل بنجاح
                     </div>
-                    <div
-                        class="quote quote-primary quote-primary-padding otp-quote">
-                        لأمان حسابك، يرجى إدخال رمز التحقق المرسل إلى بيانات
-                        التواصل المسجلة لديك
-                    </div>
-                    <div class="form-input otp-flex">
-                        <input class="otp-input" type="text" placeholder="0">
-                        <input class="otp-input" type="text" placeholder="0">
-                        <input class="otp-input" type="text" placeholder="0">
-                        <input class="otp-input" type="text" placeholder="0">
-                        <input class="otp-input" type="text" placeholder="0">
-                        <input class="otp-input" type="text" placeholder="0">
+                    <div class="quote quote-primary">
+                       لأمان حسابك، يرجى إدخال رمز التحقق المرسل إلى بيانات التواصل المسجلة لديك
                     </div>
                     <div class="form-btn-container">
-                        <button class="form-btn form-btn-primary btn-full" onclick="goToSuccessForm()">
-                            <span>←</span>تاكيد الرمز </button>
-                    </div>
-                    <div class="form-footer button-footer">
-                        <div class="footer-link button-footer-link link-primary">إعادة الإرسال </div>
-                        <div class="footer-question button-footer-link "> لم يصلك الرمز؟</div>
+                        <button class="form-btn form-btn-primary btn-full" onclick="goToInfoForm()"> <span>←</span>تأكيد بيانات حجز الجلسة</button>
                     </div>
                 </div>
                 <div class="form-footer">
@@ -57,6 +42,7 @@
                 </div>
             </div>
         </div>
+
 
         <script src="/js/forms.js"></script>
     </body>
