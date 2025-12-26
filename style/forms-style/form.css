@@ -15,6 +15,9 @@ body {
   height: 100%;
   padding: 16px 32px;
 }
+.form-large {
+  height: 95%;
+}
 .form {
   width: 788px;
   height: 540px;
@@ -22,7 +25,33 @@ body {
   border-radius: 16px;
   box-shadow: 0px 4px 16px 0px #00000026;
 }
+.form-gradient {
+  position: relative;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+}
 
+.form-gradient::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 16px;
+  background: linear-gradient(
+    270deg,
+    rgba(221, 217, 230, 0.5) 0%,
+    #9381b3 50%,
+    #866eaf 100%
+  );
+}
+
+.form-large {
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+}
 .form-logo {
   display: flex;
   justify-content: center;
@@ -39,6 +68,25 @@ body {
   text-align: center;
   font-size: 24px;
   font-weight: 400;
+}
+.quote-primary {
+  color: #866eaf;
+}
+
+.form-input input {
+  width: 100%;
+  border-radius: 16px;
+  padding: 24px 0px;
+  background-color: #ddd9e680;
+  border: none;
+}
+input::placeholder,
+textarea::placeholder {
+  font-family: "Cairo", sans-serif;
+  text-align: right;
+  color: #866eaf;
+  font-size: 24px;
+  padding: 8px;
 }
 
 .form-btn-container {
@@ -72,7 +120,6 @@ body {
   color: #866eaf;
   outline: 1px solid #866eaf;
   transition: 0.5s;
-
 }
 
 .form-btn-secondary:hover {
@@ -81,10 +128,58 @@ body {
   transition: 0.5s;
 }
 
+.btn-full {
+  width: 100%;
+}
+
+.btn-full span {
+  padding-right: 8px;
+  font-size: 24px;
+}
+
+.form-footer {
+  background-color: #edecef;
+  display: flex;
+  gap: 24px;
+  font-weight: 600;
+  font-size: 24px;
+  justify-content: center;
+  padding: 8px 0px;
+}
+
+.footer-question {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.footer-link {
+  font-weight: 600;
+  font-size: 24px;
+  color: #866eaf;
+}
 /* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
 
 @media screen and (max-width: 576px) {
   .form {
     height: 678px;
+  }
+  .form-question {
+    font-size: 22px;
+  }
+  .quote,
+  .footer-question,
+  .footer-link {
+    font-size: 18px;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    font-size: 18px;
+  }
+  .form-btn-container {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .last-button {
+    order: 1;
   }
 }
