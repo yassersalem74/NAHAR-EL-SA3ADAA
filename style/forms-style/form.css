@@ -73,7 +73,11 @@ body {
   color: #866eaf;
 }
 .form-question-title{
-  padding-bottom: 22px;
+    margin-bottom: -42px;
+}
+
+.quote-primary-padding{
+  padding-bottom: 36px;
 }
 .form-input input {
   width: 100%;
