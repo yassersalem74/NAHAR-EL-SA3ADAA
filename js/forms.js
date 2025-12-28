@@ -2,6 +2,10 @@ function goToEmailVerifyForm(){
   window.location.href = "email-verify.html";
 }
 
+function goToSignUpForm(){
+  window.location.href = "sign-up.html";
+}
+
 function goToOPTForm(){
   window.location.href = "otp-form.html";
 }

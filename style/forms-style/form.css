@@ -54,6 +54,10 @@ body {
   height: 640px;
 }
 
+.full-height {
+  height: 100%;
+}
+
 .final-success-form {
   height: 520px;
 }
@@ -61,6 +65,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 24px;
 }
 
 .form-question {
@@ -89,12 +94,18 @@ body {
 }
 .quote-primary-padding {
   padding-bottom: 36px;
+  padding-top: 24px;
+}
+
+.quote-primary-padding-top {
+  padding-bottom: 48px;
+  padding-top: 48px;
 }
 
 .information-container {
   border-radius: 16px;
   overflow: hidden;
-      padding: 46px 0px 0px 0px;
+  padding: 46px 0px 0px 0px;
 }
 
 .info-col {
@@ -124,7 +135,7 @@ body {
   text-align: right;
   color: #866eaf;
   font-size: 24px;
-padding: 16px 0px;
+  padding: 16px 0px;
   border: none;
 }
 .email-input::placeholder,
@@ -195,6 +206,12 @@ textarea::placeholder {
   transition: 0.5s;
 }
 
+.form-all-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .btn-full {
   width: 100%;
 }
@@ -253,6 +270,9 @@ textarea::placeholder {
 @media screen and (max-width: 576px) {
   .form {
     height: 678px;
+  }
+  .full-height {
+    height: 100%;
   }
   .form-question {
     font-size: 22px;
