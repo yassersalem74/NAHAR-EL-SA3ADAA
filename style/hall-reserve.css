@@ -1,0 +1,258 @@
+.form-wrapper {
+  margin: 24px 0px;
+}
+
+/* alert with icon */
+.alert-box {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.alert-box img {
+  width: 56px;
+  height: 56px;
+}
+
+/* alert */
+.alert-box {
+  background: #fff5e8;
+  border-radius: 12px;
+  padding: 16px 20px;
+  color: #d77b1f;
+  margin-bottom: 24px;
+}
+
+.alert-box strong {
+  display: block;
+}
+
+/* alert with icon */
+.alert-box {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
+
+.booking-details {
+  background-color: #ddd9e61a;
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 24px 0px;
+}
+.booking-check-type {
+  margin: 24px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.booking-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #ddd9e626;
+  padding: 16px 24px;
+}
+
+.booking-title .booking-title-image,
+.check-box-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.booking-title .booking-title-quote {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.booking-form {
+  padding: 16px 24px;
+}
+
+.check-box-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 16px;
+}
+
+.check-box-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 24px;
+  border: 1px solid #e3def2;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  background: #fff;
+}
+
+/* hover effect */
+.check-box-container:hover {
+  border-color: #7b61a8;
+}
+
+/* checkbox wrapper */
+.check-box-check {
+  position: relative;
+  width: 28px;
+  height: 28px;
+}
+
+/* hide native checkbox */
+.check-box-check input {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid #cfc6e6;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.25s ease;
+}
+
+/* checked state */
+.check-box-check input:checked {
+  border-color: #7b61a8;
+  background: #7b61a8;
+}
+
+/* inner dot */
+.check-box-check input:checked::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* text */
+.check-quotes {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.check-quotes div:first-child {
+  font-weight: 700;
+  color: #866eaf;
+  font-size: 16px;
+}
+
+.check-quotes div:last-child {
+  color: #866eaf;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* active card when checked */
+.check-box-container:has(input:checked) {
+  border-color: #7b61a8;
+  background: #f6f3ff;
+}
+
+@media screen and (max-width: 768px) {
+  .booking-check-type {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* input version inside checkbox card */
+.input-card {
+  cursor: default;
+}
+
+.check-input-wrapper {
+  flex: 1;
+}
+
+.check-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #866eaf;
+  background: transparent;
+  font-family: inherit;
+}
+
+.check-input::placeholder {
+  color: #866eaf;
+  opacity: 1;
+}
+
+/* focus state like figma */
+.input-card:focus-within {
+  border-color: #7b61a8;
+  background: #f6f3ff;
+}
+
+/* date input fix */
+.date-input {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  color: #866eaf;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* hide native calendar icon (Chrome) */
+.date-input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.date-input {
+  text-align: right;
+  direction: rtl;
+}
+
+/* style select like input */
+.check-input-wrapper-gender select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.one-row {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.text-area-height {
+  height: 100px;
+}
+
+.booking-form-button button {
+  font-family: "Cairo", sans-serif;
+
+  border: none;
+  background-color: #866eaf;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  width: 100%;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 16px;
+}
+.booking-form-button button:hover {
+  background-color: white;
+  color: #866eaf;
+  border: 1px solid #866eaf;
+  transition: 0.3s;
+}
