@@ -1167,7 +1167,7 @@ body {
   font-weight: 700;
   font-size: 32px;
   color: #866eaf;
-  padding:6px 24px;
+  padding: 6px 24px;
 }
 
 .slider-container {
@@ -1226,8 +1226,167 @@ body {
   }
 }
 
-
-
-.insider-form{
+.insider-form {
   height: 330px !important;
+}
+
+.success-page {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 40px 24px;
+  border-radius: 24px;
+  text-align: center;
+}
+
+/* icon */
+.success-icon img {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 16px;
+}
+
+/* title */
+.success-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 12px;
+}
+
+/* description */
+.success-desc {
+  font-size: 15px;
+  color: #6b7280;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* badge */
+.status-badge {
+  display: inline-block;
+  background: #fff4e5;
+  color: #b45309;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* card */
+.reservation-card {
+  background: #f9fafb;
+  border-radius: 20px;
+  text-align: right;
+}
+
+/* header */
+.card-header {
+  font-weight: 700;
+  font-size: 24px;
+  color: #111827;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 12px 18px;
+}
+
+/* body */
+.card-body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #ddd9e61a;
+}
+
+/* column */
+.card-col {
+  background: #ffffff;
+  padding: 16px;
+}
+
+/* info row */
+.info-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.info-row:last-child {
+  margin-bottom: 0;
+}
+
+.label {
+  font-size: 16px;
+  color: black;
+}
+
+.value {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* footer */
+.card-footer {
+  background: #fff7ed;
+  color: #c2410c;
+  font-size: 13px;
+  padding: 10px 14px;
+  border-radius: 0px 0px 12px 0px;
+  overflow: hidden;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* page footer */
+.success-footer {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.help-text {
+  color: #6b7280;
+}
+
+.contact-link {
+  color: #16a34a;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  .card-body {
+    grid-template-columns: 1fr;
+  }
+
+  .success-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .success-page {
+    padding: 24px 16px;
+  }
+
+  .success-desc {
+    font-size: 14px;
+  }
+
+  .card-header {
+    justify-content: center;
+  }
+}
+
+.custom-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 36px;
 }
