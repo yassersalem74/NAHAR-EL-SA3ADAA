@@ -19,3 +19,7 @@ document.querySelectorAll(".input-card").forEach(card => {
 });
 
 
+
+function goToHallOrderSuccess(){
+  window.location.href = "hall-success-order.html";
+}

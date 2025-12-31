@@ -22,3 +22,5 @@ function goToInfoForm(){
 function goToFinalSuccessForm(){
   window.location.href = "final-success.html";
 }
+
+
