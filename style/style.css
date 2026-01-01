@@ -40,8 +40,14 @@ body {
 .second-nav-btns {
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
 }
-
+.button-profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
 .customer {
   display: flex;
   flex-direction: column;

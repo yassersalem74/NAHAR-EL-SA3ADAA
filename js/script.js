@@ -26,5 +26,11 @@ img.addEventListener("mouseleave", () => {
 
 // zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 document.getElementById("goSession").addEventListener("click", function () {
-    window.location.href = "sessions.html";
-  });
+  window.location.href = "sessions.html";
+});
+
+// zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+
+function goToProfile() {
+  window.location.href = "profile.html";
+}
