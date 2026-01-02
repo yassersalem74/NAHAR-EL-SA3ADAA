@@ -81,23 +81,21 @@
 
             <div class="hero-information">
                 <div class="hero-title">
-                    مساحه <span>للأمل</span>
+                    مساحة <span>للأمل</span>
                     <div>والتعافي</div>
                 </div>
 
                 <div class="hero-description">
-                    حرصًا من الجمعية على تقديم الدعم الروحي والنفسي للناجين من
-                    مرض السرطان تقوم بإنشاء قاعة مخصصة تُستخدم لتنظيم لقاءات
-                    إنسانية دورية تجمع بين المرضى حديثي الإصابة بالسرطان
-                    والمتعافين منه، وذلك بمشاركة الأطباء النفسيين والاختصاصيين
-                    الاجتماعيين.
+                    في قلب مبادرتنا لدعم مرضى السرطان والناجين منه، نقدم قاعة نهار السعادة — مساحة إنسانية متكاملة توفر الدعم المعنوي والروحي خلال رحلة العلاج والتعافي.
+                    <br><br>
+                    نؤمن أن الدعم المعنوي جزء أساسي من رحلة العلاج، وأن مشاركة التجارب، واللقاء مع مختصين وأشخاص عايشوا التجربة نفسها يمكنها أن تُحدث أثرًا عميقًا في تعزيز القوة الداخلية وإحياء الأمل.
                 </div>
 
                 <div class="hero-buttons">
-                    <button class="btn btn-primary"><i
+                    <button class="btn btn-primary" onclick="goToHallPage()"><i
                             class="fa-regular fa-calendar"></i> حجز القاعة
                     </button>
-                    <button class="btn btn-secondary"><i
+                    <button class="btn btn-secondary" onclick="goToSessionsPage()"><i
                             class="fa-regular fa-eye"></i> عرض الورش والجلسات
                     </button>
                 </div>
@@ -149,25 +147,35 @@
 
         <div class="section about">
             <div class="section-title">
-                <div class="title">عن القاعة </div>
-                <div class="sub-title"> صُممت القاعة لتلبي كافة احتياجات
-                    المناسبات الخيرية وورش العمل، بأحدث التجهيزات. </div>
+                <div class="title">أهداف القاعة</div>
+                <div class="sub-title"> رؤيتنا ورسالتنا لتحقيق الأثر الإيجابي </div>
             </div>
 
             <div class="section hero-section about-section">
 
                 <div class="hero-information">
                     <div class="hero-description">
-                        توفر القاعة مساحة عصرية ومجهزة بالكامل لاستضافة مختلف
-                        الفعاليات، بما في ذلك الاجتماعات، المؤتمرات، الدورات
-                        التدريبية، والفعاليات الخاصة. تتميز القاعة بتصميم مرن
-                        يسمح بتغيير ترتيب الجلوس بما يتناسب مع طبيعة الحدث، إلى
-                        جانب تجهيزات صوتية ومرئية عالية الجودة تضمن تجربة
-                        احترافية للحضور.
+                        <strong>أهداف القاعة:</strong>
+                        <ul style="margin-right: 20px; margin-top: 10px;">
+                            <li>توفير بيئة آمنة للحوار والتواصل.</li>
+                            <li>تقديم ورش وجلسات دعم نفسي مع مختصين.</li>
+                            <li>تعزيز روح الأمل والثقة بالنفس في كل فرد يشارك.</li>
+                        </ul>
+                        <br>
+                        <strong>تجهيزات القاعة:</strong><br>
+                        قاعة مجهزة بالكامل لاستضافة الأنشطة التالية:<br>
+                        • الاجتماعات وورش العمل<br>
+                        • الجلسات الجماعية والدورات التدريبية<br>
+                        • الفعاليات الخاصة والأنشطة الاجتماعية<br>
+                        <br>
+                        <strong>مزايا القاعة:</strong><br>
+                        • سعة لأكثر من 100 شخص<br>
+                        • تجهيزات صوتية ومرئية حديثة<br>
+                        • سهولة وصول لذوي الإعاقة
                     </div>
 
                     <div class="hero-buttons">
-                        <button class="btn btn-primary"><i
+                        <button class="btn btn-primary" onclick="goToHallPage()"><i
                                 class="fa-regular fa-calendar"></i> حجز القاعة
                         </button>
                     </div>
@@ -182,65 +190,108 @@
 
         <div class="prepare-hall section">
             <div class="section-title">
-                <div class="title">تجهيزات القاعة</div>
+                <div class="title">قاعة نهار السعادة</div>
                 <div class="sub-title">
-                    صُممت القاعة لتلبي كافة احتياجات المناسبات الخيرية وورش
-                    العمل، بأحدث التجهيزات.
+                    حيث تُصنع اللقاءات المؤثرة… وتُبنى التجارب الهادفة
                 </div>
             </div>
 
             <div class="features-wrapper">
 
                 <div class="feature-card">
-                    <div class="icon">♿</div>
-                    <h3>سهولة الوصول</h3>
-                    <p>مجهزة بالكامل لذوي الإعاقة</p>
+                    <div class="icon">🏢</div>
+                    <h3>بيئة ملهمة</h3>
+                    <p>بيئة راقية، هادئة، ومجهزة بالكامل</p>
                 </div>
 
                 <div class="feature-card">
-                    <div class="icon">📽️</div>
-                    <h3>بث وعرض</h3>
-                    <p>شاشات عرض وبروجكتور 4K</p>
+                    <div class="icon">🎯</div>
+                    <h3>تصميم مرن</h3>
+                    <p>تصميم عملي ومرن يناسب مختلف أنواع الفعاليات</p>
                 </div>
 
                 <div class="feature-card">
-                    <div class="icon">🔊</div>
-                    <h3>أنظمة صوتية</h3>
-                    <p>ميكروفونات وسماعات حديثة</p>
+                    <div class="icon">📍</div>
+                    <h3>موقع مميز</h3>
+                    <p>موقع يخدم الفعاليات الهادفة والمجتمعية</p>
                 </div>
 
                 <div class="feature-card">
-                    <div class="icon">📊</div>
-                    <h3>سعة استيعابية</h3>
-                    <p>تسع لأكثر من 100 شخص</p>
+                    <div class="icon">👨‍💼</div>
+                    <h3>إشراف احترافي</h3>
+                    <p>إشراف وتنظيم باحترافية عالية</p>
                 </div>
 
+            </div>
+            
+            <div class="section-description" style="max-width: 800px; margin: 30px auto; text-align: center; padding: 0 20px;">
+                <p>قاعة نهار السعادة ليست مجرد قاعة، بل مساحة مصممة بعناية لاحتضان اللقاءات التي تحمل رسالة، وتدعم المبادرات الإنسانية، والفعاليات الهادفة، وورش العمل المؤثرة.</p>
+                
+                <div style="text-align: right; max-width: 600px; margin: 25px auto; background: #f8f9fa; padding: 20px; border-radius: 10px; border-right: 4px solid #4CAF50;">
+                    <p style="margin: 0; font-size: 16px; line-height: 1.6;">
+                        نوفر لك بيئة راقية، هادئة، ومجهزة بالكامل، لتقديم فعاليتك بأفضل صورة، سواء كانت ورشة، جلسة دعم، لقاء توعوي أو اجتماع احترافي.
+                    </p>
+                </div>
+                
+                <div style="text-align: right; max-width: 600px; margin: 25px auto;">
+                    <h4 style="color: #2c3e50; margin-bottom: 15px;">لماذا قاعة نهار السعادة؟</h4>
+                    <ul style="list-style-type: none; padding: 0; margin: 0;">
+                        <li style="margin-bottom: 10px; padding-right: 25px; position: relative;">
+                            <span style="color: #4CAF50; position: absolute; right: 0;">✔️</span>
+                            بيئة ملهمة ومريحة تساعد على التركيز والتفاعل
+                        </li>
+                        <li style="margin-bottom: 10px; padding-right: 25px; position: relative;">
+                            <span style="color: #4CAF50; position: absolute; right: 0;">✔️</span>
+                            تصميم عملي ومرن يناسب مختلف أنواع الفعاليات
+                        </li>
+                        <li style="margin-bottom: 10px; padding-right: 25px; position: relative;">
+                            <span style="color: #4CAF50; position: absolute; right: 0;">✔️</span>
+                            موقع يخدم الفعاليات الهادفة والمجتمعية
+                        </li>
+                        <li style="margin-bottom: 10px; padding-right: 25px; position: relative;">
+                            <span style="color: #4CAF50; position: absolute; right: 0;">✔️</span>
+                            إشراف وتنظيم باحترافية عالية
+                        </li>
+                    </ul>
+                </div>
+                
+                <p style="margin-top: 20px; font-weight: bold; font-size: 18px; color: #2c3e50;">
+                    نحن نؤمن أن المكان جزء من نجاح التجربة، لذلك حرصنا على أن تكون القاعة جاهزة لتدعم رسالتك وتبرز محتواك
+                </p>
             </div>
         </div>
 
         <div class="section targe">
             <div class="section-title">
-                <div class="title">تجهيزات القاعة</div>
+                <div class="title">مواصفات وسياسة القاعة</div>
                 <div class="sub-title">
-                    صُممت القاعة لتلبي كافة احتياجات المناسبات الخيرية وورش
-                    العمل، بأحدث التجهيزات.
+                    ضمان تجربة استثنائية مع أرقى المعايير
                 </div>
             </div>
 
             <div class="section-content">
 
                 <div class="content-right">
-                    <div class="content-right-title">هدفنا ومهمتنا</div>
-                    <div class="content-right-disc">تقديم دعم نفسي وروحي متكامل
-                        لمرضى السرطان والناجين منه</div>
+                    <div class="content-right-title">مواصفات القاعة</div>
+                    <div class="content-right-disc">أحدث التجهيزات لضمان فعالية ناجحة</div>
                     <ul>
-                        <li>تعزيز معنويات المرضى وتجديد الأمل خلال فترة
-                            العلاج.</li>
-                        <li>تحقيق الراحة النفسية والسكينة الروحية في بيئة
-                            محفزة.</li>
-                        <li>تيسير الإجراءات وتقديم الإرشاد والدعم العملي لتخفيف
-                        </li>
-
+                        <li>سهولة الوصول مجهزة بالكامل لذوي الإعاقة</li>
+                        <li>بث وعرض شاشات عرض وبروجكتور 4K</li>
+                        <li>أنظمة صوتية ميكروفونات وسماعات حديثة</li>
+                        <li>سعة استيعابية تسع لأكثر من 100 شخص</li>
+                    </ul>
+                    <br>
+                    <div class="content-right-title">سياسة الاستخدام</div>
+                    <div class="content-right-disc" style="font-weight: bold; margin-bottom: 15px; color: #e74c3c;">
+                        حرصًا على جودة التجربة، يخضع استخدام القاعة للضوابط التالية
+                    </div>
+                    <ul>
+                        <li>الالتزام بمواعيد الحجز المحددة</li>
+                        <li>المحافظة على تجهيزات القاعة ونظافتها</li>
+                        <li>احترام طبيعة الفعاليات المجتمعية والهادفة</li>
+                        <li>التنسيق المسبق مع إدارة القاعة</li>
+                        <li>الالتزام بالقيم والأخلاقيات المجتمعية</li>
+                        <li>الحصول على الموافقات اللازمة للفعاليات الخاصة</li>
                     </ul>
                 </div>
 
@@ -260,9 +311,9 @@
 
         <div class="section next">
             <div class="section-title">
-                <div class="title">الورش القادمة</div>
+                <div class="title">الفعاليات والورش القادمة</div>
                 <div class="sub-title">
-                    اكتشف الأنشطة التي تناسب اهتماماتك وجدولك الزمني
+                    نشجعك على استكشاف الورش والدورات المتاحة والتسجيل في الجلسات التي تناسبك — سواء كنت مريضًا، أو متعافيًا، أو داعمًا ترغب في المشاركة ومساندة الآخرين.
                 </div>
             </div>
         </div>
@@ -292,7 +343,7 @@
                     </div>
                 </div>
                 <div class="card-button">
-                    <button class="btn btn-primary card-btn">سجل الان</button>
+                    <button class="btn btn-primary card-btn" onclick="goToSessionForm()">سجل الان</button>
                 </div>
             </div>
 
@@ -351,7 +402,7 @@
                     </div>
                 </div>
                 <div class="card-button">
-                    <button class="btn btn-primary card-btn">سجل الان</button>
+                    <button class="btn btn-primary card-btn" onclick="goToSessionForm()">سجل الان</button>
                 </div>
             </div>
         </div>
@@ -362,7 +413,7 @@
                 <div class="join-disc">كن جزءاً من متمع داعم يتفهم رحلتك . نحن
                     هنا لنسمعك وندعمك في كل خطوة</div>
                 <div class="join-buttons">
-                    <button class="btn btn-primary" id="goSession">احجز جلستك
+                    <button class="btn btn-primary" id="goSession" onclick="goToSessionsPage()">احجز جلستك
                     </button>
                     <button class="btn btn-secondary join-second-btn">تواصل
                         معنا</button>
@@ -371,5 +422,17 @@
         </div>
 
         <script src="js/script.js"></script>
+        
+        <script>
+            function goToHallPage() {
+                window.location.href = "nahar-hall.php";
+            }
+            
+            function goToSessionsPage() {
+                window.location.href = "sessions.php";
+            }
+            
+        
+        </script>
     </body>
 </html>
