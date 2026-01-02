@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>is member ?</title>
+        <title>Successfully Logged In</title>
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -16,34 +16,33 @@
             href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&display=swap"
             rel="stylesheet">
 
-        <link rel="stylesheet" href="/style/forms-style/form.css">
-        <link rel="stylesheet" href="/style/forms-style/is-member.css">
+        <link rel="stylesheet" href="../style/forms-style/form.css">
     </head>
     <body>
         <div class="container-form">
-            <div class="form ">
-                <div class="form-container">
+            <div class="form form-large form-gradient">
+                <div class="form-container form-large">
                     <div class="form-logo">
-                        <img src="/assets/circle-form.png" alt="person-logo">
+                        <img src="../assets/success.png" alt="person-logo">
                     </div>
                     <div class="form-question">
-                        هل أنت عضو في جمعية السرطان السعودية؟
+                        تم التسجيل بنجاح
                     </div>
-                    <div class="quote">
-                        يرجي تأكيد عضويتك لتوجيهك الي النموذج الصحيح لاتمام حجز
-                        القاعه نحن نسعي لتقديم افضل خدمة ممكنة لاعضائنا وزوارنا
-                        الكرام
+                    <div class="quote quote-primary">
+                       لأمان حسابك، يرجى إدخال رمز التحقق المرسل إلى بيانات التواصل المسجلة لديك
                     </div>
-    
                     <div class="form-btn-container">
-                        <button class="form-btn form-btn-secondary last-button" onclick="goToSignUpForm()"> لا، لست عضوًا</button>
-                        <button class="form-btn form-btn-primary " onclick="goToEmailVerifyForm()">نعم، أنا عضو</button>
+                        <button class="form-btn form-btn-primary btn-full" onclick="goToInfoForm()"> <span>←</span>تأكيد بيانات حجز الجلسة</button>
                     </div>
+                </div>
+                <div class="form-footer">
+                    <div class="footer-link">تواصل معنا </div>
+                    <div class="footer-question">تحتاج مساعدة ؟</div>
                 </div>
             </div>
         </div>
 
 
-        <script src="/js/forms.js"></script>
+        <script src="../js/forms.js"></script>
     </body>
 </html>

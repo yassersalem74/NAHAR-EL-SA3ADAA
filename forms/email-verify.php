@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Successfully Logged In</title>
+        <title>Email Verify</title>
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -17,22 +16,27 @@
             href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&display=swap"
             rel="stylesheet">
 
-        <link rel="stylesheet" href="/style/forms-style/form.css">
+        <link rel="stylesheet" href="../style/forms-style/form.css">
     </head>
     <body>
         <div class="container-form">
-            <div class="form form-large form-gradient final-success-form">
-                <div class="form-container form-large ">
+            <div class="form form-large form-gradient">
+                <div class="form-container form-large">
                     <div class="form-logo">
-                        <img src="/assets/success.png" alt="person-logo">
+                        <img src="../assets/shield.png" alt="shield-logo">
                     </div>
-                    <div class="form-question">
-                        تم تاكيد حجز جلستك بنجاح
+                    <div class="form-question form-question-title email-title-padding">
+                        التحقق من البريد الالكتروني
                     </div>
-                    <div class="quote quote-primary">
-                        نتطلع لاستقبالك، ونتمنى لك جلسة مفيدة ومثمرة بإذن الله.
+                    <div class="quote quote-primary  quote-primary-padding">
+                       يرجى إدخال بريدك الالكتروني او رقم الهاتف 
                     </div>
-           
+                    <div class="form-input">
+                        <input type="text" class="email-input" placeholder="بريدك الالكتروني / رقم الهاتف ">
+                    </div>
+                    <div class="form-btn-container">
+                        <button class="form-btn form-btn-primary btn-full" onclick="goToOPTForm()"> <span>←</span>متابعه</button>
+                    </div>
                 </div>
                 <div class="form-footer">
                     <div class="footer-link">تواصل معنا </div>
@@ -42,6 +46,6 @@
         </div>
 
 
-        <script src="/js/forms.js"></script>
+        <script src="../js/forms.js"></script>
     </body>
 </html>

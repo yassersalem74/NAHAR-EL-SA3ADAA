@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -17,24 +16,22 @@
             href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&display=swap"
             rel="stylesheet">
 
-        <link rel="stylesheet" href="/style/forms-style/form.css">
+        <link rel="stylesheet" href="../style/forms-style/form.css">
     </head>
     <body>
         <div class="container-form">
-            <div class="form form-large form-gradient">
-                <div class="form-container form-large">
+            <div class="form form-large form-gradient final-success-form">
+                <div class="form-container form-large ">
                     <div class="form-logo">
-                        <img src="/assets/success.png" alt="person-logo">
+                        <img src="../assets/success.png" alt="person-logo">
                     </div>
                     <div class="form-question">
-                        تم التسجيل بنجاح
+                        تم تاكيد حجز جلستك بنجاح
                     </div>
                     <div class="quote quote-primary">
-                       لأمان حسابك، يرجى إدخال رمز التحقق المرسل إلى بيانات التواصل المسجلة لديك
+                        نتطلع لاستقبالك، ونتمنى لك جلسة مفيدة ومثمرة بإذن الله.
                     </div>
-                    <div class="form-btn-container">
-                        <button class="form-btn form-btn-primary btn-full" onclick="goToInfoForm()"> <span>←</span>تأكيد بيانات حجز الجلسة</button>
-                    </div>
+           
                 </div>
                 <div class="form-footer">
                     <div class="footer-link">تواصل معنا </div>
@@ -44,6 +41,6 @@
         </div>
 
 
-        <script src="/js/forms.js"></script>
+        <script src="../js/forms.js"></script>
     </body>
 </html>

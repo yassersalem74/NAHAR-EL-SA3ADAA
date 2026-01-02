@@ -16,10 +16,10 @@
             href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&display=swap"
             rel="stylesheet">
 
-        <link rel="stylesheet" href="/style/varaiables.css">
-        <link rel="stylesheet" href="/style/style.css">
-        <link rel="stylesheet" href="/style/media.css">
-        <link rel="stylesheet" href="/style/forms-style/form.css">
+        <link rel="stylesheet" href="style/varaiables.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/media.css">
+        <link rel="stylesheet" href="style/forms-style/form.css">
 
     </head>
     <body dir="rtl">
@@ -109,7 +109,7 @@
                     <h3 class="main-h3"> موصفات القاعة</h3>
 
                     <div class="detail-item">
-                        <img src="/assets/user-01.png">
+                        <img src="assets/user-01.png">
                         <div>
                             <p>السعة الاستيعابة</p>
                             <p class="detail-quote"> 30 – 40 شخص </p>
@@ -117,7 +117,7 @@
                     </div>
 
                     <div class="detail-item">
-                        <img src="/assets/dataflow-04.png">
+                        <img src="assets/dataflow-04.png">
                         <div>
                             <p>التجيهزات التقنية</p>
                             <p class="detail-quote">جهاز عرض (Projector) نظام
@@ -126,7 +126,7 @@
                     </div>
 
                     <div class="detail-item">
-                        <img src="/assets/wifi.png">
+                        <img src="assets/wifi.png">
                         <div>
                             <p>الانترنت</p>
                             <p class="detail-quote">واي فاي مجاني عالي
@@ -134,7 +134,7 @@
                         </div>
                     </div>
                     <div class="detail-item">
-                        <img src="/assets/dice-5 (1).png">
+                        <img src="assets/dice-5 (1).png">
                         <div>
                             <p>ترتيب المقاعد</p>
                             <p class="detail-quote">مرن وفابل للتعديل حسب
@@ -169,7 +169,7 @@
                 <!-- second right -->
                 <div class="session-about-card  about-p">
                     <h3 class="title-about-session">
-                        <img src="/assets/alert-octagon.png" alt="alert-icon">
+                        <img src="assets/alert-octagon.png" alt="alert-icon">
                         نبذة عن القاعة
                     </h3>
                     <p class="quote-about-session">
@@ -185,7 +185,7 @@
 
                     <div class="box box1">
                         <div class="box-image">
-                            <img src="/assets/building.png"
+                            <img src="assets/building.png"
                                 alt="add-peoplpe-logo">
                         </div>
                         <div class="box-title">
@@ -202,7 +202,7 @@
 
                     <div class="box box2">
                         <div class="box-image">
-                            <img src="/assets/addpeople.png"
+                            <img src="assets/addpeople.png"
                                 alt="add-peoplpe-logo">
                         </div>
                         <div class="box-title">
@@ -256,7 +256,7 @@
 
                 <div class="feature-card">
                     <div class="icon">
-                        <img src="assets/meetings.png   " alt>
+                        <img src="assets/meetings.png" alt>
                     </div>
                     <h3> اجتماعات</h3>
                 </div>
@@ -285,6 +285,12 @@
             </div>
         </div>
 
-        <script src="/js/session.js"></script>
+        <script src="js/session.js"></script>
+        <script src="js/script.js"></script>
+<script>
+    function goToProfile() {
+  window.location.href = "profile.php"; // Make sure this file exists
+}
+</script>
     </body>
 </html>

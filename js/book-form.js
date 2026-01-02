@@ -21,5 +21,5 @@ document.querySelectorAll(".input-card").forEach(card => {
 
 
 function goToHallOrderSuccess(){
-  window.location.href = "hall-success-order.html";
+  window.location.href = "hall-success-order.php";
 }

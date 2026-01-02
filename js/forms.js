@@ -1,26 +1,27 @@
+
 function goToEmailVerifyForm(){
-  window.location.href = "email-verify.html";
+  window.location.href = "email-verify.php";
 }
 
 function goToSignUpForm(){
-  window.location.href = "sign-up.html";
+  window.location.href = "sign-up.php";
 }
 
 function goToOPTForm(){
-  window.location.href = "otp-form.html";
+  window.location.href = "otp-form.php";
 }
 
 
 function goToSuccessForm(){
-  window.location.href = "success-form.html";
+  window.location.href = "success-form.php";
 }
 
 function goToInfoForm(){
-  window.location.href = "session-info-form.html";
+  window.location.href = "session-info-form.php";
 }
 
 function goToFinalSuccessForm(){
-  window.location.href = "final-success.html";
+  window.location.href = "final-success.php";
 }
 
 

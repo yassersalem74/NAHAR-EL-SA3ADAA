@@ -16,9 +16,9 @@
             href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&display=swap"
             rel="stylesheet">
 
-        <link rel="stylesheet" href="/style/varaiables.css">
-        <link rel="stylesheet" href="/style/style.css">
-        <link rel="stylesheet" href="/style/media.css">
+        <link rel="stylesheet" href="style/varaiables.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/media.css">
 
     </head>
     <body dir="rtl">
@@ -88,7 +88,7 @@
                 </div>
 
                 <div class="session-alert">
-                    <div class="alert-title"><img src="/assets/alert-circle.png"
+                    <div class="alert-title"><img src="assets/alert-circle.png"
                             alt="alert-icon">ملحوظه هامه </div>
 
                     <div class="alert-quotes">
@@ -130,7 +130,7 @@
                     <h3>تفاصيل اللقاء</h3>
 
                     <div class="detail-item">
-                        <img src="/assets/calendar.png">
+                        <img src="assets/calendar.png">
                         <div>
                             <small>التاريخ</small>
                             <p>الثلاثاء، 12 مارس 2025</p>
@@ -138,7 +138,7 @@
                     </div>
 
                     <div class="detail-item">
-                        <img src="/assets/clock.png">
+                        <img src="assets/clock.png">
                         <div>
                             <small>الوقت</small>
                             <p>5:00 م – 7:00 م (3 ساعات)</p>
@@ -146,7 +146,7 @@
                     </div>
 
                     <div class="detail-item">
-                        <img src="/assets/marker-pin-01.png">
+                        <img src="assets/marker-pin-01.png">
                         <div>
                             <small>الموقع</small>
                             <p>مركز الملك سلمان الاجتماعي – الرياض</p>
@@ -154,17 +154,17 @@
                     </div>
 
                     <div class="map">
-                        <img src="/assets/map.png" alt="map">
+                        <img src="assets/map.png" alt="map">
                     </div>
                 </div>
 
                 <div class="session-header-image">
-                    <img src="/assets/session-header.png" alt="header-session">
+                    <img src="assets/session-header.png" alt="header-session">
                 </div>
 
                 <div class="session-about-card ">
                     <h3 class="title-about-session">
-                        <img src="/assets/alert-octagon.png" alt="alert-icon">
+                        <img src="assets/alert-octagon.png" alt="alert-icon">
                         عن
                         الورشة
                     </h3>
@@ -173,7 +173,7 @@
                         الشعور بالأمل لدى
                         المستفيدات، من خلال مساحة آمنة للمشاركة والتعبير عن
                         المشاعر،
-                        وتقديم أدوات بسيطة تساعد على التكيف الإيجابي مع
+                        وتقدم أدوات بسيطة تساعد على التكيف الإيجابي مع
                         التحديات اليومية.
                     </p>
                 </div>
@@ -181,12 +181,12 @@
                 <div class="session-host-card ">
 
                     <h3 class="title-about-session">
-                        <img src="/assets/user-purple.png" alt="user-icon">
+                        <img src="assets/user-purple.png" alt="user-icon">
                         مقدمة الورشة
                     </h3>
 
                     <div class="host-info">
-                        <img src="/assets/user-picture.png" alt="speaker">
+                        <img src="assets/user-picture.png" alt="speaker">
                         <div>
                             <h4>أ. سارة الغامدي</h4>
                             <p class="quote-about-session">خبيرة في الدعم النفسي
@@ -199,6 +199,13 @@
 
         </div>
 
-        <script src="/js/session.js"></script>
+        <script src="js/session.js"></script>
+        <script src="js/script.js"></script>
+
+     <script>
+    function goToProfile() {
+  window.location.href = "profile.php"; // Make sure this file exists
+}
+</script>
     </body>
 </html>

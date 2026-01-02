@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -17,14 +16,14 @@
             href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&display=swap"
             rel="stylesheet">
 
-        <link rel="stylesheet" href="/style/forms-style/form.css">
+        <link rel="stylesheet" href="../style/forms-style/form.css">
     </head>
     <body>
         <div class="container-form">
             <div class="form form-large form-gradient">
                 <div class="form-container form-large">
                     <div class="form-logo">
-                        <img src="/assets/info-session.png" alt="person-logo">
+                        <img src="../assets/info-session.png" alt="person-logo">
                     </div>
                     <div class="form-question">
                         تأكيد بيانات حجز الجلسة
@@ -39,7 +38,7 @@
                             <div class="value">محمد عبد العزيز </div>
                             <div class="key">
                                 <div>الاسم كامل </div>
-                                <img src="/assets/user-01.png"
+                                <img src="../assets/user-01.png"
                                     alt="person-logo">
                             </div>
                         </div>
@@ -47,7 +46,7 @@
                             <div class="value">mohamed@gmail.com </div>
                             <div class="key">
                                 <div>البريد الالكتروني </div>
-                                <img src="/assets/user-01.png"
+                                <img src="../assets/user-01.png"
                                     alt="person-logo">
                             </div>
                         </div>
@@ -55,7 +54,7 @@
                             <div class="value">909978672564 </div>
                             <div class="key">
                                 <div>رقم الجوال </div>
-                                <img src="/assets/user-01.png"
+                                <img src="../assets/user-01.png"
                                     alt="person-logo">
                             </div>
                         </div>
@@ -74,6 +73,6 @@
             </div>
         </div>
 
-        <script src="/js/forms.js"></script>
+        <script src="../js/forms.js"></script>
     </body>
 </html>

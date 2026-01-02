@@ -10,9 +10,9 @@
             rel="stylesheet">
         <link rel="stylesheet" href="form.css">
 
-        <link rel="stylesheet" href="/style/varaiables.css">
-        <link rel="stylesheet" href="/style/style.css">
-        <link rel="stylesheet" href="/style/media.css">
+        <link rel="stylesheet" href="style/varaiables.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/media.css">
         <link rel="stylesheet" href="style/hall-reserve.css">
     </head>
 
@@ -163,7 +163,7 @@
     
                                 <div class="check-box-container input-card">
                                     <div class="check-box-check">
-                                        <img src="assets//start-clock.png" alt>
+                                        <img src="assets/start-clock.png" alt>
                                     </div>
                                     <div class="check-input-wrapper">
                                         <input
@@ -305,7 +305,13 @@
         <!-- </form> -->
 
    <script src="js/book-form.js"></script>
+        <script src="js/script.js"></script>
 
+
+<script>
+    function goToProfile() {
+  window.location.href = "profile.php"; // Make sure this file exists
+}
 </script>
 
     </body>

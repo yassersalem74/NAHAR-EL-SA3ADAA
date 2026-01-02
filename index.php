@@ -16,9 +16,9 @@
             href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&display=swap"
             rel="stylesheet">
 
-        <link rel="stylesheet" href="/style/varaiables.css">
-        <link rel="stylesheet" href="/style/style.css">
-        <link rel="stylesheet" href="/style/media.css">
+        <link rel="stylesheet" href="style/varaiables.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/media.css">
 
     </head>
     <body dir="rtl">
@@ -118,23 +118,23 @@
 
             <div class="reason-gallery">
                 <div class="gallery-one">
-                    <img src="/assets/s1.png" alt="gallery-one">
+                    <img src="assets/s1.png" alt="gallery-one">
                 </div>
                 <div class="gallery-two">
-                    <img src="/assets/2.png" alt="gallery-two">
+                    <img src="assets/2.png" alt="gallery-two">
 
                 </div>
                 <div class="quote-one">
-                    <p class="first-p"><img src="/assets/support-icon.png"
+                    <p class="first-p"><img src="assets/support-icon.png"
                             alt="support-icon">
                         الدعم النفسي والأمل</p>
                     <p class="second-p">يعاني كثير من مرضى السرطان من صدمات
                         نفسية عند التشخيص، مع
                         محدودية الدعم النفسي وغياب النماذج الملهمة التي تبث
-                        الأمل وتخفف من وطأة التجربة.</p>
+                        الأمل وتخفيف من وطأة التجربة.</p>
                 </div>
                 <div class="quote-two">
-                    <p class="first-p"><img src="/assets/support-2-icon.png"
+                    <p class="first-p"><img src="assets/support-2-icon.png"
                             alt="support-icon">
                         العزلة والحاجة لمساحة آمنة</p>
                     <p class="second-p white-p">يواجه المرضى مشاعر الوحدة وصعوبة
@@ -174,7 +174,7 @@
                 </div>
 
                 <div class="hero-img">
-                    <img src="/assets/hall.png" alt="hall-image">
+                    <img src="assets/hall.png" alt="hall-image">
                 </div>
 
             </div>
@@ -271,7 +271,7 @@
             <div class="card">
                 <div class="badge open">متاح التسجيل </div>
                 <div class="card-image">
-                    <img src="/assets/card-1.png" alt="card-image-1">
+                    <img src="assets/card-1.png" alt="card-image-1">
                 </div>
                 <div class="card-info">
                     <div class="information">
@@ -299,7 +299,7 @@
             <div class="card">
                 <div class="badge close">ممتلئ </div>
                 <div class="card-image">
-                    <img src="/assets/card-1.png" alt="card-image-1">
+                    <img src="assets/card-1.png" alt="card-image-1">
                 </div>
                 <div class="card-info">
                     <div class="information">
@@ -329,7 +329,7 @@
             <div class="card">
                 <div class="badge open">متاح التسجيل </div>
                 <div class="card-image">
-                    <img src="/assets/card-1.png" alt="card-image-1">
+                    <img src="assets/card-1.png" alt="card-image-1">
                 </div>
                 <div class="card-info">
                     <div class="information">
@@ -370,6 +370,6 @@
             </div>
         </div>
 
-        <script src="/js/script.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>

@@ -37,12 +37,14 @@ document.addEventListener("click", () => {
 });
 
 
-
+function goToProfile() {
+  window.location.href = "profile-page.php"; // Or whatever your profile page URL is
+}
 // zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 
 
 function goToSessionDetail() {
-  window.location.href = "session-detail.html";
+  window.location.href = "session-detail.php";
 
 }
 
@@ -50,7 +52,7 @@ function goToSessionDetail() {
 
 
 function goToSessionForm() {
-  window.location.href = "forms/is-member.html";
+  window.location.href = "forms/is-member.php";
 
 }
 

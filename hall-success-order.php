@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -17,11 +16,11 @@
             href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&display=swap"
             rel="stylesheet">
 
-        <link rel="stylesheet" href="/style/varaiables.css">
-        <link rel="stylesheet" href="/style/style.css">
-        <link rel="stylesheet" href="/style/media.css">
+        <link rel="stylesheet" href="style/varaiables.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/media.css">
         <link rel="stylesheet" href="style/hall-reserve.css">
-        <link rel="stylesheet" href="/style/forms-style/form.css">
+        <link rel="stylesheet" href="style/forms-style/form.css">
     </head>
     <body>
 
@@ -83,7 +82,7 @@
 
             <!-- icon -->
             <div class="success-icon">
-                <img src="/assets/success-green.png" alt="success">
+                <img src="assets/success-green.png" alt="success">
             </div>
 
             <!-- title -->
@@ -174,6 +173,12 @@
 
             </div>
 
-            <script src="/js/forms.js"></script>
+            <script src="js/forms.js"></script>
+        <script src="js/script.js"></script>
+          <script>
+    function goToProfile() {
+  window.location.href = "profile.php"; // Make sure this file exists
+}
+</script>
         </body>
     </html>

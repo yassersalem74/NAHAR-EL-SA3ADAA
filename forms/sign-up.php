@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -17,14 +16,14 @@
             href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&display=swap"
             rel="stylesheet">
 
-        <link rel="stylesheet" href="/style/forms-style/form.css">
+        <link rel="stylesheet" href="../style/forms-style/form.css">
     </head>
     <body>
         <div class="container-form full-height">
             <div class="form form-large form-gradient full-height">
                 <div class="form-container form-large full-height">
                     <div class="form-logo">
-                        <img src="/assets/shield.png" alt="shield-logo">
+                        <img src="../assets/shield.png" alt="shield-logo">
                     </div>
                     <div
                         class="form-question form-question-title email-title-padding">
@@ -90,6 +89,6 @@
             </div>
         </div>
 
-        <script src="/js/forms.js"></script>
+        <script src="../js/forms.js"></script>
     </body>
-</html>
+</html> 

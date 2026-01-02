@@ -10,9 +10,9 @@
             rel="stylesheet">
         <link rel="stylesheet" href="form.css">
 
-        <link rel="stylesheet" href="/style/varaiables.css">
-        <link rel="stylesheet" href="/style/style.css">
-        <link rel="stylesheet" href="/style/media.css">
+        <link rel="stylesheet" href="style/varaiables.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/media.css">
         <link rel="stylesheet" href="style/hall-reserve.css">
     </head>
 
@@ -113,7 +113,7 @@
                     <div class="card">
                         <div class="badge open">تم التسجيل </div>
                         <div class="card-image">
-                            <img src="/assets/session-1.png">
+                            <img src="assets/session-1.png">
                         </div>
                         <div class="card-info">
                             <div class="information">
@@ -145,7 +145,7 @@
                         <div class="badge open bring-done">تم الحضور</div>
 
                         <div class="card-image">
-                            <img src="/assets/session-1.png">
+                            <img src="assets/session-1.png">
                         </div>
                         <div class="card-info">
                             <div class="information">
@@ -176,7 +176,7 @@
                         <div class="badge open bring-done">تم الحضور</div>
 
                         <div class="card-image">
-                            <img src="/assets/session-1.png">
+                            <img src="assets/session-1.png">
                         </div>
                         <div class="card-info">
                             <div class="information">
@@ -275,6 +275,7 @@
             </section>
 
         </main>
+        <script src="js/script.js"></script>
 
     </body>
 </html>

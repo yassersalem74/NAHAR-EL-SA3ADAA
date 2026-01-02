@@ -16,9 +16,9 @@
             href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&display=swap"
             rel="stylesheet">
 
-        <link rel="stylesheet" href="/style/varaiables.css">
-        <link rel="stylesheet" href="/style/style.css">
-        <link rel="stylesheet" href="/style/media.css">
+        <link rel="stylesheet" href="style/varaiables.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/media.css">
 
     </head>
     <body dir="rtl">
@@ -86,10 +86,10 @@
             <div class="session-buttons">
                 <div class="dropdown">
                     <button class="btn btn-primary dropdown-btn">
-                        <i class="icon"><img src="/assets/date.png"
+                        <i class="icon"><img src="assets/date.png"
                                 alt="date-icon"></i>
                         <span>التاريخ</span>
-                        <i class="icon"><img src="/assets/arrow-down.png"
+                        <i class="icon"><img src="assets/arrow-down.png"
                                 alt="arrow-down-icon"></i>
                     </button>
                     <ul class="dropdown-menu">
@@ -101,10 +101,10 @@
 
                 <div class="dropdown">
                     <button class="btn btn-primary dropdown-btn">
-                        <i class="icon"><img src="/assets/dice-5.png"
+                        <i class="icon"><img src="assets/dice-5.png"
                                 alt="dice-icon"></i>
                         <span>الفئة</span>
-                        <i class="icon"><img src="/assets/arrow-down.png"
+                        <i class="icon"><img src="assets/arrow-down.png"
                                 alt="arrow-down-icon"></i>
                     </button>
                     <ul class="dropdown-menu">
@@ -116,10 +116,10 @@
 
                 <div class="dropdown">
                     <button class="btn btn-primary dropdown-btn">
-                        <i class="icon"><img src="/assets/person.png"
+                        <i class="icon"><img src="assets/person.png"
                                 alt="person-icon"></i>
                         <span>الجنس</span>
-                        <i class="icon"><img src="/assets/arrow-down.png"
+                        <i class="icon"><img src="assets/arrow-down.png"
                                 alt="arrow-down-icon"></i>
                     </button>
                     <ul class="dropdown-menu">
@@ -131,10 +131,10 @@
 
                 <div class="dropdown">
                     <button class="btn btn-primary dropdown-btn">
-                        <i class="icon"><img src="/assets/filter-lines.png"
+                        <i class="icon"><img src="assets/filter-lines.png"
                                 alt="filter-lines-icon"></i>
                         <span>حالة التوفر</span>
-                        <i class="icon"><img src="/assets/arrow-down.png"
+                        <i class="icon"><img src="assets/arrow-down.png"
                                 alt="arrow-down-icon"></i>
                     </button>
                     <ul class="dropdown-menu">
@@ -150,7 +150,7 @@
                     <div class="card">
                         <div class="badge open">متاح التسجيل </div>
                         <div class="card-image">
-                            <img src="/assets/session-1.png" alt="card-image-1">
+                            <img src="assets/session-1.png" alt="card-image-1">
                         </div>
                         <div class="card-info">
                             <div class="information">
@@ -187,7 +187,7 @@
                     <div class="card">
                         <div class="badge open">متاح التسجيل </div>
                         <div class="card-image">
-                            <img src="/assets/session-2.png" alt="card-image-1">
+                            <img src="assets/session-2.png" alt="card-image-1">
                         </div>
                         <div class="card-info">
                             <div class="information">
@@ -211,7 +211,7 @@
                         </div>
                         <div class="cards-width">
                             <div class="card-button session-card">
-                                <button class="btn btn-primary card-btn" >سجل
+                                <button class="btn btn-primary card-btn">سجل
                                     الان</button>
                                 <button
                                     class="btn btn-primary card-btn card-detail" onclick="goToSessionDetail()">التفاصيل</button>
@@ -222,7 +222,7 @@
                     <div class="card">
                         <div class="badge close"> ممتلئ </div>
                         <div class="card-image">
-                            <img src="/assets/session-1.png" alt="card-image-1">
+                            <img src="assets/session-1.png" alt="card-image-1">
                         </div>
                         <div class="card-info">
                             <div class="information">
@@ -256,7 +256,7 @@
                        <div class="card">
                         <div class="badge open">متاح التسجيل </div>
                         <div class="card-image">
-                            <img src="/assets/session-2.png" alt="card-image-1">
+                            <img src="assets/session-2.png" alt="card-image-1">
                         </div>
                         <div class="card-info">
                             <div class="information">
@@ -291,7 +291,7 @@
                        <div class="card">
                         <div class="badge close"> ممتلئ </div>
                         <div class="card-image">
-                            <img src="/assets/session-1.png" alt="card-image-1">
+                            <img src="assets/session-1.png" alt="card-image-1">
                         </div>
                         <div class="card-info">
                             <div class="information">
@@ -325,7 +325,7 @@
                        <div class="card">
                         <div class="badge open">متاح التسجيل </div>
                         <div class="card-image">
-                            <img src="/assets/session-1.png" alt="card-image-1">
+                            <img src="assets/session-1.png" alt="card-image-1">
                         </div>
                         <div class="card-info">
                             <div class="information">
@@ -380,6 +380,12 @@
 
         </div>
 
-        <script src="/js/session.js"></script>
+        <script src="js/session.js"></script>
+        <script src="js/script.js"></script>
+<script>
+    function goToProfile() {
+  window.location.href = "profile.php"; // Make sure this file exists
+}
+</script>
     </body>
 </html>
